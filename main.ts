@@ -41,6 +41,7 @@ controller.player1.onEvent(ControllerEvent.Connected, function () {
     game.splash("Player Joined The Game")
 })
 let Player: Sprite = null
+let textSprite = textsprite.create("welcome", 1, 15)
 music.play(music.createSong(assets.song`Backmu`), music.PlaybackMode.LoopingInBackground)
 scene.setBackgroundImage(img`
     8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
